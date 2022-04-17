@@ -1,9 +1,8 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #define max 50
 void find_duplicates(int [],int ,int );
-void quick_sort(int a[],int ,int);
+void quick_sort(int [],int ,int);
 
 int main()
 {
