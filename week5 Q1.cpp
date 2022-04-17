@@ -10,7 +10,7 @@ void count_sort(string arr)
        temp[arr[i]-97]++;
 
     int maxi=0;
-    char res='$';
+    char res='a';
     for (int i=0;i<26;i++)
     {
         if (temp[i]>maxi)
